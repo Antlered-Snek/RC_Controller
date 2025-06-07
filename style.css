@@ -6,6 +6,7 @@ body {
 	background-color: black;
 	font-family: "Lucida Console";
 	overflow: hidden;
+	touch-action: none;
 
 	user-drag: none;
     -webkit-user-drag: none;
@@ -28,8 +29,8 @@ body {
 	margin-top: auto;
 	margin-bottom: auto;
 
-	height: 510px;
-	width: 510px;
+	height: 255px;
+	width: 255px;
 	background-color: dimgrey;
 	border-radius: 50%;
 	border: 10px solid lightgrey;
@@ -41,8 +42,8 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 
-	height: 100px;
-	width: 100px;
+	height: 50px;
+	width: 50px;
 	background-color: white;
 }
 
@@ -59,10 +60,10 @@ body {
 
 #y_control .line {
 	width: 30px;
-	height: 510px;
+	height: 255px;
 }
 #x_control .line {
-	width: 510px;
+	width: 255px;
 	height: 30px;
 }
 /* ----------------------------------------------------------------------- */
@@ -150,8 +151,24 @@ body {
 	font-size: 200%;
 	text-align: center;
 }
+/* ----------------------------------------------------------------------- */
+/* Initiator */
+#initiator {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 
-/*@keyframes showNumpad {
-  from {width: 0%; opacity: 0%;}
-  to {width: 30%; opacity: 100%;}
-}*/
+	width: 100vw;
+	height: 100vh;
+	top: 0px;
+
+	background-color: black;
+	opacity: 70%;
+}
+
+#initiator div {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
