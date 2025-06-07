@@ -206,7 +206,6 @@ document.getElementById('missile-prep').addEventListener('click', e => {
 })
 		//  Click Missile Launch
 missile_launch.addEventListener('click', e => {
-	alert("PHEWWWWWWWWWWWW")
 	missile_launch.style.display = "none"
 	missileIsOn = false
 })
@@ -219,10 +218,7 @@ document.getElementById('accept-numpad').addEventListener('click', e => {
 		missileIsOn = true
 		missile_launch.style.display = "block"
 	}
-	else {
-		alert('Incorrect Password')
-		missileIsOn = false
-	}
+	else missileIsOn = false
 
 	// Reset
 	for (let i=0; i<4; i++) {
