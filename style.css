@@ -112,7 +112,7 @@ body {
 }
 
 #numpad div:not(#showcode):not(#showcode div) {
-	font-size: 400%;
+	font-size: 300%;
 	text-align: center;
 	line-height: 160%;
 	background-color: grey;
@@ -134,7 +134,7 @@ body {
 #showcode div:not(#accept-numpad) {
 	color: springgreen;
 	line-height: 130%;
-	font-size: 700%;
+	font-size: 600%;
 }
 
 #accept-numpad {
@@ -148,7 +148,7 @@ body {
 
 	background-color: red;
 	color: white;
-	font-size: 200%;
+	font-size: 100%;
 	text-align: center;
 }
 /* ----------------------------------------------------------------------- */
