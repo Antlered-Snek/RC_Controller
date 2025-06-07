@@ -206,7 +206,7 @@ document.getElementById('missile-prep').addEventListener('click', e => {
 })
 		//  Click Missile Launch
 missile_launch.addEventListener('click', e => {
-	missile_launch.style.display = "none"
+	missile_launch.style.display = "none" 
 	missileIsOn = false
 })
 		//  Click OK on Numpad
